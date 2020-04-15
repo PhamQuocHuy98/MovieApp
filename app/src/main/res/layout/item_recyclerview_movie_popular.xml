@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="125dp"
+    android:layout_marginRight="10dp"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?attr/selectableItemBackgroundBorderless"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:scaleType="centerCrop"
+        android:id="@+id/imgMoviePopular"
+        android:layout_width="125dp"
+        android:src="@drawable/ic_launcher_background"
+        android:layout_height="175dp">
+
+    </ImageView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Test"
+        android:id="@+id/txtTitleMoviePopular"
+        android:textColor="@android:color/white"
+        android:lines="2"
+        android:layout_height="wrap_content">
+
+    </TextView>
+    <RatingBar
+        android:layout_width="wrap_content"
+        style="?android:ratingBarStyleSmall"
+        android:id="@+id/ratingItemMoviePopular"
+        android:rating="3"
+        android:numStars="5"
+        android:progressBackgroundTint="@android:color/darker_gray"
+        android:layout_marginTop="8dp"
+        android:layout_height="wrap_content">
+
+    </RatingBar>
+    
+</LinearLayout>
